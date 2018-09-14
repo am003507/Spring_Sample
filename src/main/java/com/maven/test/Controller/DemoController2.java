@@ -16,16 +16,13 @@ import java.util.List;
 public class DemoController2 {
 
 
-    @Autowired
-    UserMapper usermapper;
 
 
-
-    @RequestMapping(value="/user",method= RequestMethod.GET)
-    public List<USer> dd(){
-
-
-
-        return usermapper.findAll();
-    }
+//    @RequestMapping(value="/user",method= RequestMethod.GET)
+//    public List<USer> dd(){
+//
+//
+//
+//        return usermapper.findAll();
+//    }
 }
